@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>R E G I S T R A T I O N</title> 
+<link rel="stylesheet" href="styl.css"> 
+</head> 
+<body> 
+<center> 
+<div id="form_div">
+<h2> APPLICANT REGISTRATION </h2> 
+<p><b>NOTE:PLEASE FILL ALL THE DETAILS CAREFULLY</b></p> 
+<br> 
+<form action="Form_file.php" method="POST"> 
+<label for="applicant_name">NAME(fullname): </label> 
+<input id="applicant_name" type="text" name="applicant_name" autofocus requried autocomplete="false" /> <br><br> 
+<label for="applicant_age"> AGE: </label> 
+<input id="applicant_age" type="text" name="applicant_age" autofocus requried autocomplete="false" /> <br><br> 
+<label for="applicant_phno">PHNO: </label> 
+<input id="applicant_phno" type="number" min="1000000000" max="9999999999" name="applicant_phno" autofocus requried autocomplete="false" /> 
+<br><br> 
+<label for="applicant_email">EMAILID: </label> 
+<input id="applicant_email" type="text" name="applicant_email" autofocus requried autocomplete="false" /> <br><br> 
+<label>GENDER: </label> <input id="male_gender" type="radio" name="gender" value="male" autofocus required autocomplete="false"> 
+<span id="male_gender_label" for="male_gender" >Male </span> 
+<input id="female_gender" type="radio" name="gender" value="female" autofocus required autocomplete="false"> 
+<span id="female_gender_label" for="female_gender">Female </span> <br><br> 
+<label for="university">UNIVERSITY: </label> <input id="university" type="text" name="university" autofocus requried autocomplete="false" /> 
+<br><br> 
+<label for="DOB">DATE OF BIRTH: </label> 
+<input id="DOB" type="date" name="DOB" autofocus required autocomplete="false"/> <br><br> 
+<label for="gardian_name">Parent/GUARDIAN NAME: </label> 
+<input id="gardian_name" type="text" name="gardian_name" autofocus required autocomplete="false"/> <br><br> 
+<label for="applicant_add">ADDRESS: </label> <input id="applicant_add" type="text" name="applicant_add" autofocus requried autocomplete="false"/> <br><br> 
+<input id="submit_button" type="submit" name="submit_button" value="Register"/> <br><br> 
+</form> 
+</div> 
+</center> 
+</body> 
+</html>
